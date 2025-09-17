@@ -1,0 +1,74 @@
+/* General body */
+body {
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Container card */
+.contact-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+.contact-card h3 {
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 25px;
+}
+
+/* Form inputs and textarea */
+.contact-card input.form-control,
+.contact-card textarea.form-control {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+.contact-card input.form-control:focus,
+.contact-card textarea.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0,123,255,0.2);
+}
+
+/* Submit button */
+.contact-card button.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.contact-card button.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Info box */
+.info-box {
+    background: #007bff;
+    color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.info-box h5 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media(max-width: 767px){
+    .info-box {
+        margin-top: 20px;
+    }
+}
