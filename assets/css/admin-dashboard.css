@@ -1,0 +1,76 @@
+/* Dark Mode Admin Dashboard */
+body {
+    background-color: #1e1e2f; /* dark background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1;
+}
+
+/* Dashboard Header */
+.dashboard-title {
+    color: #f1f1f1;
+    font-weight: 700;
+}
+
+.welcome-text {
+    font-size: 1rem;
+    color: #cbd5e1; /* soft light gray */
+}
+
+/* Cards */
+.dashboard-card {
+    border-radius: 12px;
+    padding: 25px;
+    background-color: #2a2a3f; /* dark card background */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.8);
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Card text */
+.dashboard-card h5 {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #f1f1f1;
+}
+
+.dashboard-card p {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+    color: #a1a1aa; /* soft gray */
+}
+
+/* Buttons */
+.dashboard-card a.btn {
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1e1e2f;
+    background-color: #60a5fa; /* soft blue */
+    transition: all 0.3s ease;
+}
+
+.dashboard-card a.btn:hover {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+/* Individual card top border highlights */
+.product-card { border-top: 3px solid #60a5fa; }
+.purchases-card { border-top: 3px solid #facc15; }
+.messages-card { border-top: 3px solid #34d399; }
+.logout-card { border-top: 3px solid #f87171; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dashboard-card { margin-bottom: 15px; }
+}

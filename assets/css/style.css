@@ -1,0 +1,112 @@
+/* Global */
+body{font-family: Inter, Arial, sans-serif; background:#f4f6fb; margin:0; padding:0;}
+.navbar-brand{font-weight:700;}
+.container{max-width:1100px;}
+.card .fit-img{height:220px; object-fit:cover;}
+.footer{background:#0d6efd;color:#fff;padding:14px 0;text-align:center;}
+.btn-round{border-radius:30px;}
+.product-title{font-size:1.05rem;font-weight:600;}
+.small-muted{color:#6c757d;font-size:0.9rem;}
+.message-box{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(15,15,15,0.06);}
+.form-container{background:#fff;padding:25px;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,0.06);max-width:480px;margin:30px auto;}
+.footer a{color:#fff}
+.carousel-item img{height:420px; object-fit:cover; width:100%;}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* General body */
+body {
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Container card */
+.contact-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+.contact-card h3 {
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 25px;
+}
+
+/* Form inputs and textarea */
+.contact-card input.form-control,
+.contact-card textarea.form-control {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+.contact-card input.form-control:focus,
+.contact-card textarea.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0,123,255,0.2);
+}
+
+/* Submit button */
+.contact-card button.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.contact-card button.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Info box */
+.info-box {
+    background: #007bff;
+    color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.info-box h5 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media(max-width: 767px){
+    .info-box {
+        margin-top: 20px;
+    }
+}
